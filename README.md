@@ -21,7 +21,7 @@ javascript实现的一个影像快视图几何变换（仿射变换和透视变�
 ## Install
 
 ```sh
-npm install gmcTransf
+npm install gmctransf.js
 ```
 
 ## API Reference
