@@ -1,0 +1,13 @@
+{
+  "name": "gmctransf",
+  "version": "1.2.1",
+  "description": "javascript实现的一个影像快视图变换的库。",
+  "main": "gmcTransf.js",
+  "keywords": ["Transformation","javascript","Affine","Perspective","image","Quick View"],
+  "author": "XU TAO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moaries/gmcTransf.git"
+  }
+}
