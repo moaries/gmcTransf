@@ -3,14 +3,14 @@
 javascript实现的一个影像快视图几何变换（仿射变换和透视变换）的库。
 
 在前端加载影像快视图时，有时会遇到未经变换处理的快视图，这导致快视图与落图无法套合。为此，提供了一个解决方案，以解决这一问题。
-<div class="image-row" >
+<div style="display:flex;justify-content: left;">
     <figure>
     <img src="./resources/front.png" width="260" height="260">
-    <figcaption>处理前，不能跟落图套合。</figcaption>
+    <figcaption style="text-align: center;">处理前，不能跟落图套合。</figcaption>
     </figure>
     <figure>
     <img src="./resources/after.png" width="260" height="260">
-    <figcaption>处理后，可以跟落图套合。</figcaption>
+    <figcaption style="text-align: center;">处理后，可以跟落图套合。</figcaption>
     </figure>
 </div>
 
@@ -91,15 +91,3 @@ gmcTransf.persp(geom, img_url, (obj) => {
   map.addLayer(imageLayer);
 });
 ```
-<style>
-  .image-row {
-    display: flex;
-    justify-content: left;
-  }
-  .image-row figure {
-    margin: 20px;
-  }
-  .image-row figcaption {
-    text-align: center;
-  }
-</style>
