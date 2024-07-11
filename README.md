@@ -3,15 +3,16 @@
 javascript实现的一个影像快视图几何变换（仿射变换和透视变换）的库。
 
 在前端加载影像快视图时，有时会遇到未经变换处理的快视图，这导致快视图与落图无法套合。为此，提供了一个解决方案，以解决这一问题。
-<div style="display:flex;justify-content: left;">
-    <figure>
-    <img src="./resources/front.png" width="260" height="260">
-    <figcaption style="text-align: center;">处理前，不能跟落图套合。</figcaption>
-    </figure>
-    <figure>
-    <img src="./resources/after.png" width="260" height="260">
-    <figcaption style="text-align: center;">处理后，可以跟落图套合。</figcaption>
-    </figure>
+
+<div style="display: flex;justify-content: space-around;align-items: center;">
+  <div style="text-align: center;margin: 10px;">
+    <img src="./resources/front.png"  width="260" height="260">
+    <p>处理前，不能跟落图套合</p>
+  </div>
+  <div style="text-align: center;margin: 10px;">
+    <img src="./resources/after.png"  width="260" height="260">
+    <p>处理后，可以跟落图套合。</p>
+  </div>
 </div>
 
 ## Install
