@@ -29,8 +29,8 @@ npm install gmcTransf
 浏览器导入
 
 ```html
-<script src="gmcTransf.js"></script>
-<script src="gmcTransf.min.js"></script>
+<script src="https://github.com/moaries/gmcTransf/blob/main/gmcTransf.js"></script>
+<script src="https://github.com/moaries/gmcTransf/blob/main/gmcTransf.min.js"></script>
 ```
 
 ```javascript
@@ -76,9 +76,6 @@ gmcTransf.persp = function (geom, url, cb) {
 以 openlayer 加载快视图为例
 
 ```javascript
-// 前端加载
-<script src="gmcTransf.1.2.1.js"></script>;
-
 //快视图的落图
 let geom = [
   [x1, y1],
